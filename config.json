@@ -1,0 +1,46 @@
+{
+  "freeMinutes": 5,
+  "waitSeconds": 120,
+  "price": "$50 MXN / MES",
+  "contactLabel": "",
+  "contactUrl": "",
+  "msgs": {
+    "expiredTitle": "¡Se te acabaron los tokens! 🪙",
+    "expiredText": "Estás en TokenPlay Free de Samuel, y lo gratis también se paga… con un ratito de anuncios. Aguanta tu ronda de entretenimiento y recuperas tu acceso. ¿O prefieres saltarte todo con Premium?",
+    "restoreText": "Tu periodo de espera ha finalizado. Tu acceso gratuito ha sido restablecido."
+  },
+  "promos": false,
+  "videos": [
+    {
+      "id": "citC6WSNwEs",
+      "cat": "AUTOMOTRIZ",
+      "title": "Next-Gen Ford Ranger Raptor | Ford España",
+      "on": true
+    },
+    {
+      "id": "1lbjyOmt_C8",
+      "cat": "AUTOMOTRIZ",
+      "title": "2025 Ford F-150® Truck | Exterior Design & Functionality",
+      "on": true
+    },
+    {
+      "id": "8mtsllx0V8c",
+      "cat": "AUTOMOTRIZ",
+      "title": "READY SET FORD | Ford Latino",
+      "on": true
+    },
+    {
+      "id": "FzFoLRs7ZIs",
+      "cat": "AUTOMOTRIZ",
+      "title": "Nueva RAM 1500",
+      "on": true
+    },
+    {
+      "id": "TtuhXELt8kI",
+      "cat": "AUTOMOTRIZ",
+      "title": "Ram Commercial 2026 - (USA)",
+      "on": true
+    }
+  ],
+  "subs": []
+}
