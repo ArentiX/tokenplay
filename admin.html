@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TokenPlay · Administración</title><link rel="stylesheet" href="css/style.css"></head><body>
+<div id="login" class="screen"><div class="logo">TOKEN<b>PLAY</b> · ADMIN</div><p id="lMsg"></p>
+<input id="pw" type="password" placeholder="Contraseña" style="max-width:300px;background:#0e0e11;color:#fff;border:1px solid #333;border-radius:8px;padding:12px">
+<button class="btn gold" id="lGo">ENTRAR</button></div>
+<div id="panel" class="wrap adm" hidden><header><div class="logo">TOKEN<b>PLAY</b> · ADMIN</div><button class="btn line" id="out">Salir</button></header>
+<h2>Videos</h2><div class="f"><div><label>Enlace de YouTube</label><input id="vu" placeholder="https://youtu.be/..."></div>
+<div><label>Categoría</label><select id="vc"><option>AUTOMOTRIZ</option><option>CRISTIANO</option></select></div></div>
+<p style="margin-top:10px"><button class="btn gold" id="vAdd">AGREGAR VIDEO</button> <span class="note" id="vMsg"></span></p><div id="vl"></div>
+<h2>Tiempos y precio</h2><div class="f"><div><label>Acceso gratuito (minutos)</label><input id="fm" type="number" min="1"></div>
+<div><label>Etapa de entretenimiento (segundos)</label><input id="ws" type="number" min="10"></div>
+<div><label>Precio mostrado</label><input id="pr"></div><div><label>Texto de contacto (opcional)</label><input id="cl"></div>
+<div><label>Enlace de contacto (WhatsApp, etc.)</label><input id="cu" placeholder="https://wa.me/..."></div></div>
+<h2>Mensajes</h2><div id="mg"></div>
+<h2>Suscripciones Premium</h2><div class="f"><div><label>Nombre</label><input id="sn"></div><div><label>Vence (opcional)</label><input id="su" type="date"></div></div>
+<p style="margin-top:10px"><button class="btn gold" id="sAdd">ACTIVAR PREMIUM (generar código)</button></p><div id="sl"></div>
+<p class="note">Entrega el código al suscriptor tras confirmar su pago; lo escribe en «Ya tengo un código Premium».</p>
+<h2>Guardar y publicar</h2><p><button class="btn green" id="sv">GUARDAR</button> <button class="btn line" id="ex">EXPORTAR config.json</button> <button class="btn line" id="im">IMPORTAR</button><input type="file" id="fi" hidden accept=".json"></p>
+<p class="note" id="sMsg">Guardar aplica los cambios en este navegador. Para que los vean todos los visitantes, exporta config.json y reemplázalo en la carpeta del sitio.</p></div>
+<script src="js/store.js"></script><script src="js/admin.js"></script></body></html>
